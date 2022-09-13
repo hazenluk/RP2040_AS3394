@@ -1,0 +1,97 @@
+Circuit: * C:\Users\Lukas\Documents\RP2040_AS3394\spice files\Filter_Freq.asc
+
+WARNING: Less than two connections to node NC_01.  This node is used by V4.
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 0.00100083
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195313
+Gmin = 0.00100083
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source Step = 93.9542%
+Source Step = 93.9838%
+Source Step = 94.0134%
+Source Step = 94.043%
+Source Step = 94.0726%
+vernier = 0.00146484
+Source Step = 94.1066%
+Source Step = 94.151%
+Source Step = 94.1954%
+Source Step = 94.2398%
+Source Step = 94.2842%
+vernier = 0.00219727
+Source Step = 94.333%
+Source Step = 94.3996%
+Source Step = 94.4661%
+Source Step = 94.5327%
+Source Step = 94.5993%
+vernier = 0.0032959
+Source Step = 94.6692%
+Source Step = 94.7691%
+Source Step = 94.869%
+Source Step = 94.9689%
+Source Step = 95.0687%
+Source Step = 95.1686%
+vernier = 0.00494385
+Source Step = 95.3184%
+Source Step = 95.4682%
+Source Step = 95.618%
+Source Step = 95.7679%
+Source Step = 95.9177%
+vernier = 0.00741577
+Source Step = 96.1349%
+Source Step = 96.3596%
+Source Step = 96.5843%
+Source Step = 96.8091%
+Source Step = 97.0338%
+vernier = 0.0111237
+Source Step = 97.3484%
+Source Step = 97.6855%
+Source Step = 98.0226%
+Source Step = 98.3596%
+Source Step = 98.6967%
+vernier = 0.0166855
+Source Step = 99.1518%
+Source Step = 99.6574%
+Source stepping succeeded in finding the operating point.
+
+
+Date: Sat Sep 10 20:14:24 2022
+Total elapsed time: 0.487 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 42745
+traniter = 38803
+tranpoints = 19398
+accept = 14529
+rejected = 4869
+matrix size = 75
+fillins = 243
+solver = Normal
+Matrix Compiler1:    1042 opcodes  2.5/[0.8]/0.9
+Matrix Compiler2: 10.27 KB object code size  0.5/0.6/[0.4]
+
