@@ -1065,6 +1065,7 @@
     )
   )
 
+
   (junction (at 53.34 54.61) (diameter 0) (color 0 0 0 0)
     (uuid 01865aa7-d9e4-47b9-a3cc-e4f7bbd5051c)
   )
@@ -2088,7 +2089,7 @@
     (uuid 24df9397-4e6f-4253-87dd-9783e343297e)
     (property "Reference" "R4" (id 0) (at 36.83 110.49 90))
     (property "Value" "27r4" (id 1) (at 36.83 115.57 90))
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 36.83 113.03 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 36.83 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 36.83 113.03 0)
@@ -3052,7 +3053,7 @@
     (uuid fb7a6a2b-6d32-4492-b5c5-aaea7b40b6e9)
     (property "Reference" "R3" (id 0) (at 31.75 105.41 90))
     (property "Value" "27r4" (id 1) (at 31.75 110.49 90))
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 31.75 107.95 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 31.75 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 31.75 107.95 0)
@@ -3499,10 +3500,10 @@
       (reference "R2") (unit 1) (value "5.1k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/fb7a6a2b-6d32-4492-b5c5-aaea7b40b6e9"
-      (reference "R3") (unit 1) (value "27r4") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R3") (unit 1) (value "27r4") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/24df9397-4e6f-4253-87dd-9783e343297e"
-      (reference "R4") (unit 1) (value "27r4") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R4") (unit 1) (value "27r4") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/c9125209-3096-4fe8-91c7-84881ea1f68d"
       (reference "R5") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -3684,7 +3685,7 @@
     (path "/4be0f50f-df7d-4a82-b90c-e414038b561e/eede0e89-6fad-49dd-86e5-b4db7ae8547f"
       (reference "U4") (unit 3) (value "LM324") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
     )
-    (path "/4be0f50f-df7d-4a82-b90c-e414038b561e/229825aa-f5ba-4ffd-af61-f3666b3b954e"
+    (path "/4be0f50f-df7d-4a82-b90c-e414038b561e/d6eb3b1b-16c0-4565-9e04-4b99751ec30b"
       (reference "U4") (unit 4) (value "LM324") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
     )
     (path "/4be0f50f-df7d-4a82-b90c-e414038b561e/6f7446c4-f1d8-44b9-8540-b06e70b56584"
@@ -3693,7 +3694,7 @@
     (path "/4be0f50f-df7d-4a82-b90c-e414038b561e/960cbf2a-d8e8-4a64-8565-4b650f333016"
       (reference "U5") (unit 1) (value "AS3394") (footprint "Package_DIP:DIP-24_W7.62mm_Socket")
     )
-    (path "/4be0f50f-df7d-4a82-b90c-e414038b561e/d6eb3b1b-16c0-4565-9e04-4b99751ec30b"
+    (path "/4be0f50f-df7d-4a82-b90c-e414038b561e/229825aa-f5ba-4ffd-af61-f3666b3b954e"
       (reference "U6") (unit 1) (value "LM324") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
     )
     (path "/4be0f50f-df7d-4a82-b90c-e414038b561e/edc2a233-375f-414f-98ef-e58e400099d2"

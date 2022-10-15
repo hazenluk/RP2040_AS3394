@@ -671,6 +671,7 @@
     )
   )
 
+
   (junction (at 48.26 71.12) (diameter 0) (color 0 0 0 0)
     (uuid 00484b02-c206-4b00-a028-f55a432ca63d)
   )
@@ -2577,10 +2578,10 @@
     (pin "2" (uuid ca2cc425-abc8-412b-b2c0-19be06e52b9b))
   )
 
-  (symbol (lib_id "Amplifier_Operational:LM324") (at 60.96 177.8 0) (unit 4)
+  (symbol (lib_id "Amplifier_Operational:LM324") (at 60.96 177.8 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 229825aa-f5ba-4ffd-af61-f3666b3b954e)
-    (property "Reference" "U4" (id 0) (at 64.77 173.99 0))
+    (property "Reference" "U6" (id 0) (at 64.77 173.99 0))
     (property "Value" "LM324" (id 1) (at 64.77 181.61 0))
     (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (id 2) (at 59.69 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4258,10 +4259,10 @@
     (pin "2" (uuid 707f0d89-d396-4bb2-bd71-163bee81a3f0))
   )
 
-  (symbol (lib_id "Amplifier_Operational:LM324") (at 185.42 106.68 0) (unit 1)
+  (symbol (lib_id "Amplifier_Operational:LM324") (at 185.42 106.68 0) (unit 4)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d6eb3b1b-16c0-4565-9e04-4b99751ec30b)
-    (property "Reference" "U6" (id 0) (at 185.42 96.52 0))
+    (property "Reference" "U4" (id 0) (at 185.42 96.52 0))
     (property "Value" "LM324" (id 1) (at 185.42 99.06 0))
     (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (id 2) (at 184.15 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
