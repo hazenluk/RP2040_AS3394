@@ -60,3 +60,9 @@ X322512MSB4SI,Y1,Crystal_SMD_3225-4Pin_3.2x2.5mm,C9002
 D_Small,"D3,D4,D5,D6",D_SMA,C95872
 10u,"C12,C7",C_0603_1608Metric,C96446
 W25Q128JVS,U3,SOIC-8_5.23x5.23mm_P1.27mm,C97521
+DNF,R6,R_0402_1005Metric,
+Conn_01x08,J4,PinHeader_1x08_P2.54mm_Vertical,
+AS3394,U5,DIP-24_W7.62mm_Socket,
+Conn_01x03,J1,PinHeader_1x03_P2.54mm_Vertical,
+Conn_01x02,J3,PinHeader_1x02_P2.54mm_Vertical,
+Conn_01x03,J5,PinHeader_1x03_P2.54mm_Vertical,
