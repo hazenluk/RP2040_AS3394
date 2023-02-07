@@ -1,4 +1,11 @@
-20886748790362544
+20886748448386253
+Adafruit_4x4_Elastomer
+MICROBUILDER_ELAST_PAD_SQUARE_10MM_4X4WIDE
+
+
+0
+2
+2
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -321,13 +328,6 @@ battery CR-3032 coin cell vertical
 0
 2
 2
-Bushwhacker
-HRO_TYPE-C-31-M-12
-
-
-0
-16
-16
 Button_Switch_Keyboard
 SW_Cherry_MX_1.00u_PCB
 Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
