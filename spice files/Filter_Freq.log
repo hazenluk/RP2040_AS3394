@@ -1,4 +1,4 @@
-Circuit: * C:\Users\Lukas\Documents\RP2040_AS3394\spice files\Filter_Freq.asc
+Circuit: * C:\Users\Lukas\Documents\Electronics_Projects\RP2040_AS3394\spice files\Filter_Freq.asc
 
 WARNING: Less than two connections to node NC_01.  This node is used by V4.
 Early termination of direct N-R iteration.
@@ -78,8 +78,8 @@ Source Step = 99.6574%
 Source stepping succeeded in finding the operating point.
 
 
-Date: Sun Nov 06 17:24:38 2022
-Total elapsed time: 0.507 seconds.
+Date: Sun Mar 12 22:06:48 2023
+Total elapsed time: 0.524 seconds.
 
 tnom = 27
 temp = 27
@@ -92,6 +92,6 @@ rejected = 4869
 matrix size = 75
 fillins = 243
 solver = Normal
-Matrix Compiler1:    1042 opcodes  2.3/[0.9]/0.9
-Matrix Compiler2: 10.27 KB object code size  0.5/0.7/[0.5]
+Matrix Compiler1: 19.37 KB object code size  2.4/1.0/[0.9]
+Matrix Compiler2: 10.27 KB object code size  0.5/0.6/[0.4]
 
