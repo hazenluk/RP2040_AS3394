@@ -14,9 +14,10 @@ R4 out N003 5.1k
 R5 N005 N003 2.7k
 C4 N003 0 180n
 R6 N002 N003 3.3k
-R7 N006 6.5V 3k
-R8 0 N006 560
+R7 N006 N007 3.9k
+R8 0 N006 1k
 V4 NC_01 0 1.0198854
+V5 N007 0 5
 .tran .01
 .param duty = 0.5
 .lib ns_models.lib
