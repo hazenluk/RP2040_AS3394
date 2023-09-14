@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/luka/pico/as3394
+CMAKE_SOURCE_DIR = /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luka/pico/as3394/build
+CMAKE_BINARY_DIR = /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build
 
 # Utility rule file for ELF2UF2Build.
 
@@ -76,51 +76,51 @@ pwm_test/CMakeFiles/ELF2UF2Build-complete: pwm_test/elf2uf2/src/ELF2UF2Build-sta
 pwm_test/CMakeFiles/ELF2UF2Build-complete: pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
 pwm_test/CMakeFiles/ELF2UF2Build-complete: pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build
 pwm_test/CMakeFiles/ELF2UF2Build-complete: pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'ELF2UF2Build'"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/cmake -E make_directory /home/luka/pico/as3394/build/pwm_test/CMakeFiles
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/cmake -E touch /home/luka/pico/as3394/build/pwm_test/CMakeFiles/ELF2UF2Build-complete
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/cmake -E touch /home/luka/pico/as3394/build/pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'ELF2UF2Build'"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/cmake -E make_directory /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test/CMakeFiles
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/cmake -E touch /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test/CMakeFiles/ELF2UF2Build-complete
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/cmake -E touch /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-done
 
 pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build: pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'ELF2UF2Build'"
-	cd /home/luka/pico/as3394/build/elf2uf2 && $(MAKE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'ELF2UF2Build'"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/elf2uf2 && $(MAKE)
 
 pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure: pwm_test/elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt
 pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure: pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'ELF2UF2Build'"
-	cd /home/luka/pico/as3394/build/elf2uf2 && /usr/bin/cmake "-GUnix Makefiles" /home/luka/pico/pico-sdk/tools/elf2uf2
-	cd /home/luka/pico/as3394/build/elf2uf2 && /usr/bin/cmake -E touch /home/luka/pico/as3394/build/pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'ELF2UF2Build'"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/elf2uf2 && /usr/bin/cmake -DCMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/gmake "-GUnix Makefiles" /home/luka/pico/pico-sdk/tools/elf2uf2
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/elf2uf2 && /usr/bin/cmake -E touch /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
 
 pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download: pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'ELF2UF2Build'"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/cmake -E echo_append
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/cmake -E touch /home/luka/pico/as3394/build/pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'ELF2UF2Build'"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/cmake -E echo_append
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/cmake -E touch /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
 
 pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install: pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'ELF2UF2Build'"
-	cd /home/luka/pico/as3394/build/elf2uf2 && /usr/bin/cmake -E echo_append
-	cd /home/luka/pico/as3394/build/elf2uf2 && /usr/bin/cmake -E touch /home/luka/pico/as3394/build/pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'ELF2UF2Build'"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/elf2uf2 && /usr/bin/cmake -E echo_append
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/elf2uf2 && /usr/bin/cmake -E touch /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install
 
 pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'ELF2UF2Build'"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/cmake -E make_directory /home/luka/pico/pico-sdk/tools/elf2uf2
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/cmake -E make_directory /home/luka/pico/as3394/build/elf2uf2
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/cmake -E make_directory /home/luka/pico/as3394/build/pwm_test/elf2uf2
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/cmake -E make_directory /home/luka/pico/as3394/build/pwm_test/elf2uf2/tmp
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/cmake -E make_directory /home/luka/pico/as3394/build/pwm_test/elf2uf2/src/ELF2UF2Build-stamp
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/cmake -E make_directory /home/luka/pico/as3394/build/pwm_test/elf2uf2/src
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/cmake -E make_directory /home/luka/pico/as3394/build/pwm_test/elf2uf2/src/ELF2UF2Build-stamp
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/cmake -E touch /home/luka/pico/as3394/build/pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'ELF2UF2Build'"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/cmake -E make_directory /home/luka/pico/pico-sdk/tools/elf2uf2
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/cmake -E make_directory /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/elf2uf2
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/cmake -E make_directory /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test/elf2uf2
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/cmake -E make_directory /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test/elf2uf2/tmp
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/cmake -E make_directory /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test/elf2uf2/src/ELF2UF2Build-stamp
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/cmake -E make_directory /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test/elf2uf2/src
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/cmake -E make_directory /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test/elf2uf2/src/ELF2UF2Build-stamp
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/cmake -E touch /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir
 
 pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch: pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'ELF2UF2Build'"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/cmake -E echo_append
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/cmake -E touch /home/luka/pico/as3394/build/pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'ELF2UF2Build'"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/cmake -E echo_append
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/cmake -E touch /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
 
 pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update: pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'ELF2UF2Build'"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/cmake -E echo_append
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/cmake -E touch /home/luka/pico/as3394/build/pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'ELF2UF2Build'"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/cmake -E echo_append
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/cmake -E touch /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update
 
 ELF2UF2Build: pwm_test/CMakeFiles/ELF2UF2Build
 ELF2UF2Build: pwm_test/CMakeFiles/ELF2UF2Build-complete
@@ -139,10 +139,10 @@ pwm_test/CMakeFiles/ELF2UF2Build.dir/build: ELF2UF2Build
 .PHONY : pwm_test/CMakeFiles/ELF2UF2Build.dir/build
 
 pwm_test/CMakeFiles/ELF2UF2Build.dir/clean:
-	cd /home/luka/pico/as3394/build/pwm_test && $(CMAKE_COMMAND) -P CMakeFiles/ELF2UF2Build.dir/cmake_clean.cmake
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && $(CMAKE_COMMAND) -P CMakeFiles/ELF2UF2Build.dir/cmake_clean.cmake
 .PHONY : pwm_test/CMakeFiles/ELF2UF2Build.dir/clean
 
 pwm_test/CMakeFiles/ELF2UF2Build.dir/depend:
-	cd /home/luka/pico/as3394/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luka/pico/as3394 /home/luka/pico/as3394/pwm_test /home/luka/pico/as3394/build /home/luka/pico/as3394/build/pwm_test /home/luka/pico/as3394/build/pwm_test/CMakeFiles/ELF2UF2Build.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/pwm_test /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test/CMakeFiles/ELF2UF2Build.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pwm_test/CMakeFiles/ELF2UF2Build.dir/depend
 

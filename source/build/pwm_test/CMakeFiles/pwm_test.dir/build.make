@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/luka/pico/as3394
+CMAKE_SOURCE_DIR = /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luka/pico/as3394/build
+CMAKE_BINARY_DIR = /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build
 
 # Include any dependencies generated for this target.
 include pwm_test/CMakeFiles/pwm_test.dir/depend.make
@@ -72,105 +72,105 @@ include pwm_test/CMakeFiles/pwm_test.dir/flags.make
 pwm_test/CMakeFiles/pwm_test.dir/pwm_test.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
 pwm_test/CMakeFiles/pwm_test.dir/pwm_test.c.obj: ../pwm_test/pwm_test.c
 pwm_test/CMakeFiles/pwm_test.dir/pwm_test.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object pwm_test/CMakeFiles/pwm_test.dir/pwm_test.c.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/pwm_test.c.obj -MF CMakeFiles/pwm_test.dir/pwm_test.c.obj.d -o CMakeFiles/pwm_test.dir/pwm_test.c.obj -c /home/luka/pico/as3394/pwm_test/pwm_test.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object pwm_test/CMakeFiles/pwm_test.dir/pwm_test.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/pwm_test.c.obj -MF CMakeFiles/pwm_test.dir/pwm_test.c.obj.d -o CMakeFiles/pwm_test.dir/pwm_test.c.obj -c /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/pwm_test/pwm_test.c
 
 pwm_test/CMakeFiles/pwm_test.dir/pwm_test.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/pwm_test.c.i"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/as3394/pwm_test/pwm_test.c > CMakeFiles/pwm_test.dir/pwm_test.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/pwm_test/pwm_test.c > CMakeFiles/pwm_test.dir/pwm_test.c.i
 
 pwm_test/CMakeFiles/pwm_test.dir/pwm_test.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/pwm_test.c.s"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/as3394/pwm_test/pwm_test.c -o CMakeFiles/pwm_test.dir/pwm_test.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/pwm_test/pwm_test.c -o CMakeFiles/pwm_test.dir/pwm_test.c.s
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
-
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
-
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
-
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
+
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i"
@@ -183,161 +183,231 @@ pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /home/luka/pico/pico-sdk/src/common/pico_sync/sem.c
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.obj -c /home/luka/pico/pico-sdk/src/common/pico_sync/sem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.obj -c /home/luka/pico/pico-sdk/src/common/pico_sync/sem.c
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.i"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/common/pico_sync/sem.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/common/pico_sync/sem.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.i
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.s"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/common/pico_sync/sem.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/common/pico_sync/sem.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.s
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: /home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.i"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.s"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
-
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.obj: /home/luka/pico/pico-sdk/src/common/pico_time/time.c
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.obj -c /home/luka/pico/pico-sdk/src/common/pico_time/time.c
-
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.i"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/common/pico_time/time.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.i
-
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.s"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.s
-
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c
-
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
-
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
-
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
-
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
-
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
-
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/luka/pico/pico-sdk/src/common/pico_util/datetime.c
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.obj -c /home/luka/pico/pico-sdk/src/common/pico_util/datetime.c
-
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.i"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.i
-
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.s"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.s
-
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/luka/pico/pico-sdk/src/common/pico_util/pheap.c
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.obj -c /home/luka/pico/pico-sdk/src/common/pico_util/pheap.c
-
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.i"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.i
-
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.s"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.s
-
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.obj: /home/luka/pico/pico-sdk/src/common/pico_util/queue.c
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.obj -c /home/luka/pico/pico-sdk/src/common/pico_util/queue.c
-
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.i"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.i
-
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.s"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -c /home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -c /home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.i"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.s"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.i"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.s"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.obj: /home/luka/pico/pico-sdk/src/common/pico_time/time.c
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.obj -c /home/luka/pico/pico-sdk/src/common/pico_time/time.c
+
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.i"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/common/pico_time/time.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.i
+
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.s"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.s
+
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c
+
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
+
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/luka/pico/pico-sdk/src/common/pico_util/datetime.c
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.obj -c /home/luka/pico/pico-sdk/src/common/pico_util/datetime.c
+
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.i"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.i
+
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.s"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.s
+
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/luka/pico/pico-sdk/src/common/pico_util/pheap.c
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.obj -c /home/luka/pico/pico-sdk/src/common/pico_util/pheap.c
+
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.i"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.i
+
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.s"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.s
+
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.obj: /home/luka/pico/pico-sdk/src/common/pico_util/queue.c
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.obj -c /home/luka/pico/pico-sdk/src/common/pico_util/queue.c
+
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.i"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.i
+
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.s"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.s
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
+
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
+
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
+
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
+
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
+
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+
+pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /home/luka/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building ASM object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building ASM object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i"
@@ -350,105 +420,35 @@ pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
-
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
-
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
-
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
-
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
-
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
-
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
-
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
-
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
-
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
-
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
-
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
-
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
-
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
-
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
-
-pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building ASM object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building ASM object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i"
@@ -461,21 +461,21 @@ pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bit
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i"
@@ -487,8 +487,8 @@ pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_div
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i"
@@ -501,35 +501,35 @@ pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_dou
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i"
@@ -541,8 +541,8 @@ pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_dou
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i"
@@ -554,8 +554,8 @@ pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_int
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i"
@@ -568,35 +568,35 @@ pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_flo
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i"
@@ -609,21 +609,21 @@ pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_flo
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i"
@@ -635,8 +635,8 @@ pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_mem
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i"
@@ -649,101 +649,101 @@ pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_sta
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: pwm_test/CMakeFiles/pwm_test.dir/flags.make
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: pwm_test/CMakeFiles/pwm_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -MF CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj.d -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c > CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
 
 pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s"
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c -o CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
 
 # Object files for target pwm_test
 pwm_test_OBJECTS = \
 "CMakeFiles/pwm_test.dir/pwm_test.c.obj" \
 "CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
 "CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
-"CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" \
 "CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
+"CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" \
 "CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj" \
 "CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" \
 "CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj" \
 "CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.obj" \
 "CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj" \
+"CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.obj" \
+"CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj" \
 "CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.obj" \
 "CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj" \
 "CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj" \
 "CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.obj" \
 "CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.obj" \
 "CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.obj" \
-"CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.obj" \
-"CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj" \
 "CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj" \
-"CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj" \
-"CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj" \
 "CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" \
 "CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" \
 "CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj" \
 "CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj" \
 "CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj" \
+"CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj" \
+"CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj" \
 "CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj" \
 "CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj" \
 "CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj" \
@@ -772,29 +772,29 @@ pwm_test_EXTERNAL_OBJECTS =
 pwm_test/pwm_test.elf: pwm_test/CMakeFiles/pwm_test.dir/pwm_test.c.obj
 pwm_test/pwm_test.elf: pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 pwm_test/pwm_test.elf: pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-pwm_test/pwm_test.elf: pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 pwm_test/pwm_test.elf: pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+pwm_test/pwm_test.elf: pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 pwm_test/pwm_test.elf: pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 pwm_test/pwm_test.elf: pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 pwm_test/pwm_test.elf: pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 pwm_test/pwm_test.elf: pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.obj
 pwm_test/pwm_test.elf: pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+pwm_test/pwm_test.elf: pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+pwm_test/pwm_test.elf: pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 pwm_test/pwm_test.elf: pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.obj
 pwm_test/pwm_test.elf: pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 pwm_test/pwm_test.elf: pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 pwm_test/pwm_test.elf: pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 pwm_test/pwm_test.elf: pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 pwm_test/pwm_test.elf: pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.obj
-pwm_test/pwm_test.elf: pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-pwm_test/pwm_test.elf: pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 pwm_test/pwm_test.elf: pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-pwm_test/pwm_test.elf: pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
-pwm_test/pwm_test.elf: pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 pwm_test/pwm_test.elf: pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 pwm_test/pwm_test.elf: pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 pwm_test/pwm_test.elf: pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 pwm_test/pwm_test.elf: pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 pwm_test/pwm_test.elf: pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+pwm_test/pwm_test.elf: pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+pwm_test/pwm_test.elf: pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 pwm_test/pwm_test.elf: pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 pwm_test/pwm_test.elf: pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 pwm_test/pwm_test.elf: pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
@@ -819,23 +819,23 @@ pwm_test/pwm_test.elf: pwm_test/CMakeFiles/pwm_test.dir/home/luka/pico/pico-sdk/
 pwm_test/pwm_test.elf: pwm_test/CMakeFiles/pwm_test.dir/build.make
 pwm_test/pwm_test.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 pwm_test/pwm_test.elf: pwm_test/CMakeFiles/pwm_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Linking CXX executable pwm_test.elf"
-	cd /home/luka/pico/as3394/build/pwm_test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pwm_test.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-objcopy -Oihex /home/luka/pico/as3394/build/pwm_test/pwm_test.elf pwm_test.hex
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-objcopy -Obinary /home/luka/pico/as3394/build/pwm_test/pwm_test.elf pwm_test.bin
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-objdump -h /home/luka/pico/as3394/build/pwm_test/pwm_test.elf >pwm_test.dis
-	cd /home/luka/pico/as3394/build/pwm_test && /usr/bin/arm-none-eabi-objdump -d /home/luka/pico/as3394/build/pwm_test/pwm_test.elf >>pwm_test.dis
-	cd /home/luka/pico/as3394/build/pwm_test && ../elf2uf2/elf2uf2 /home/luka/pico/as3394/build/pwm_test/pwm_test.elf pwm_test.uf2
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Linking CXX executable pwm_test.elf"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pwm_test.dir/link.txt --verbose=$(VERBOSE)
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-objcopy -Oihex /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test/pwm_test.elf pwm_test.hex
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-objcopy -Obinary /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test/pwm_test.elf pwm_test.bin
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-objdump -h /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test/pwm_test.elf > pwm_test.dis
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && /usr/bin/arm-none-eabi-objdump -d /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test/pwm_test.elf >> pwm_test.dis
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && ../elf2uf2/elf2uf2 /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test/pwm_test.elf pwm_test.uf2
 
 # Rule to build all files generated by this target.
 pwm_test/CMakeFiles/pwm_test.dir/build: pwm_test/pwm_test.elf
 .PHONY : pwm_test/CMakeFiles/pwm_test.dir/build
 
 pwm_test/CMakeFiles/pwm_test.dir/clean:
-	cd /home/luka/pico/as3394/build/pwm_test && $(CMAKE_COMMAND) -P CMakeFiles/pwm_test.dir/cmake_clean.cmake
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test && $(CMAKE_COMMAND) -P CMakeFiles/pwm_test.dir/cmake_clean.cmake
 .PHONY : pwm_test/CMakeFiles/pwm_test.dir/clean
 
 pwm_test/CMakeFiles/pwm_test.dir/depend:
-	cd /home/luka/pico/as3394/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luka/pico/as3394 /home/luka/pico/as3394/pwm_test /home/luka/pico/as3394/build /home/luka/pico/as3394/build/pwm_test /home/luka/pico/as3394/build/pwm_test/CMakeFiles/pwm_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/pwm_test /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test/CMakeFiles/pwm_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pwm_test/CMakeFiles/pwm_test.dir/depend
 

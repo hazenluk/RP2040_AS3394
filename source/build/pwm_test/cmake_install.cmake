@@ -1,4 +1,4 @@
-# Install script for directory: /home/luka/pico/as3394/pwm_test
+# Install script for directory: /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/pwm_test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

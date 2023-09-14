@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/luka/pico/pico-sdk")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/luka/pico/as3394/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

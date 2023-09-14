@@ -1,0 +1,3 @@
+/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pioasm/CMakeFiles/pioasm.dir
+/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pioasm/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pioasm/CMakeFiles/rebuild_cache.dir

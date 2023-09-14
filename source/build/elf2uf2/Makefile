@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/luka/pico/pico-sdk/tools/elf2uf2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luka/pico/as3394/build/elf2uf2
+CMAKE_BINARY_DIR = /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/elf2uf2
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luka/pico/as3394/build/elf2uf2/CMakeFiles /home/luka/pico/as3394/build/elf2uf2//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/elf2uf2/CMakeFiles /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/elf2uf2//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luka/pico/as3394/build/elf2uf2/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/elf2uf2/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

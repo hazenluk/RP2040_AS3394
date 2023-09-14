@@ -1,0 +1,13 @@
+# Target labels
+ PioasmBuild
+# Source files and their labels
+/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild
+/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild.rule
+/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild-complete.rule
+/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule
+/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule
+/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule
+/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule
+/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule
+/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule
+/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule

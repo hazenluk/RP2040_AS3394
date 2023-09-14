@@ -1,4 +1,4 @@
-# Install script for directory: /home/luka/pico/as3394
+# Install script for directory: /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,9 +39,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/luka/pico/as3394/build/pico-sdk/cmake_install.cmake")
-  include("/home/luka/pico/as3394/build/pwm_test/cmake_install.cmake")
-  include("/home/luka/pico/as3394/build/usb-midi/cmake_install.cmake")
+  include("/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pico-sdk/cmake_install.cmake")
+  include("/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test/cmake_install.cmake")
+  include("/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi/cmake_install.cmake")
+  include("/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/mono_modulation/cmake_install.cmake")
 
 endif()
 
@@ -53,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/luka/pico/as3394/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

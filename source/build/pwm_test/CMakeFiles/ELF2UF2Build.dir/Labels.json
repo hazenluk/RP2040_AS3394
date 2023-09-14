@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/luka/pico/as3394/build/pwm_test/CMakeFiles/ELF2UF2Build"
+			"file" : "/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test/CMakeFiles/ELF2UF2Build"
 		},
 		{
-			"file" : "/home/luka/pico/as3394/build/pwm_test/CMakeFiles/ELF2UF2Build.rule"
+			"file" : "/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test/CMakeFiles/ELF2UF2Build.rule"
 		},
 		{
-			"file" : "/home/luka/pico/as3394/build/pwm_test/CMakeFiles/ELF2UF2Build-complete.rule"
+			"file" : "/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test/CMakeFiles/ELF2UF2Build-complete.rule"
 		},
 		{
-			"file" : "/home/luka/pico/as3394/build/pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule"
+			"file" : "/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule"
 		},
 		{
-			"file" : "/home/luka/pico/as3394/build/pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule"
+			"file" : "/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule"
 		},
 		{
-			"file" : "/home/luka/pico/as3394/build/pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule"
+			"file" : "/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule"
 		},
 		{
-			"file" : "/home/luka/pico/as3394/build/pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule"
+			"file" : "/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule"
 		},
 		{
-			"file" : "/home/luka/pico/as3394/build/pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule"
+			"file" : "/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule"
 		},
 		{
-			"file" : "/home/luka/pico/as3394/build/pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule"
+			"file" : "/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule"
 		},
 		{
-			"file" : "/home/luka/pico/as3394/build/pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule"
+			"file" : "/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/pwm_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule"
 		}
 	],
 	"target" : 

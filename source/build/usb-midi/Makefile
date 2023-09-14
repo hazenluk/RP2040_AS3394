@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/luka/pico/as3394
+CMAKE_SOURCE_DIR = /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luka/pico/as3394/build
+CMAKE_BINARY_DIR = /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/luka/pico/as3394/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/luka/pico/as3394/build/CMakeFiles /home/luka/pico/as3394/build/usb-midi//CMakeFiles/progress.marks
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 usb-midi/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luka/pico/as3394/build/CMakeFiles 0
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi//CMakeFiles/progress.marks
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 usb-midi/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 usb-midi/clean
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 usb-midi/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 usb-midi/preinstall
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 usb-midi/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 usb-midi/preinstall
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 usb-midi/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/luka/pico/as3394/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 usb-midi/CMakeFiles/usb-midi.dir/rule:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 usb-midi/CMakeFiles/usb-midi.dir/rule
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 usb-midi/CMakeFiles/usb-midi.dir/rule
 .PHONY : usb-midi/CMakeFiles/usb-midi.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ usb-midi: usb-midi/CMakeFiles/usb-midi.dir/rule
 
 # fast build rule for target.
 usb-midi/fast:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/build
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/build
 .PHONY : usb-midi/fast
 
 home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.obj: home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
@@ -135,7 +135,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.obj: home/luka/pico/pic
 
 # target to build an object file
 home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj
 
 home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.i: home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.i
@@ -143,7 +143,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.i: home/luka/pico/pico-
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.i
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.i
 
 home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.s: home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.s
@@ -151,7 +151,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.s: home/luka/pico/pico-
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.s
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.s
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
@@ -159,7 +159,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: home/luka/
 
 # target to build an object file
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
@@ -167,7 +167,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: home/luka/pi
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
@@ -175,7 +175,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: home/luka/pi
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj: home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
@@ -183,7 +183,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj: home/luka/pico
 
 # target to build an object file
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
@@ -191,7 +191,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: home/luka/pico/p
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
@@ -199,7 +199,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: home/luka/pico/p
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj: home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
@@ -207,7 +207,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj: home/luka/pico
 
 # target to build an object file
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
@@ -215,7 +215,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: home/luka/pico/p
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
@@ -223,7 +223,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: home/luka/pico/p
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj: home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
@@ -231,7 +231,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj: home/luka/p
 
 # target to build an object file
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
@@ -239,7 +239,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: home/luka/pic
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
@@ -247,7 +247,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: home/luka/pic
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj: home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
@@ -255,7 +255,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj: home/luka/pico
 
 # target to build an object file
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
@@ -263,7 +263,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: home/luka/pico/p
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
@@ -271,7 +271,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: home/luka/pico/p
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj: home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
@@ -279,7 +279,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj: home/luka/pi
 
 # target to build an object file
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
@@ -287,7 +287,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: home/luka/pico
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
@@ -295,7 +295,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: home/luka/pico
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj: home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
@@ -303,7 +303,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj: home/luka/pico
 
 # target to build an object file
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
@@ -311,7 +311,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: home/luka/pico/p
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
@@ -319,7 +319,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: home/luka/pico/p
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj: home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
@@ -327,7 +327,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj: home/luk
 
 # target to build an object file
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
@@ -335,7 +335,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: home/luka/
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s: home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
@@ -343,7 +343,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s: home/luka/
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj: home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
@@ -351,7 +351,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj: home/luka/pico
 
 # target to build an object file
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
@@ -359,7 +359,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: home/luka/pico/p
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s: home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
@@ -367,7 +367,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s: home/luka/pico/p
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj: home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
@@ -375,7 +375,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj: home/luk
 
 # target to build an object file
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
@@ -383,7 +383,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: home/luka/
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
@@ -391,7 +391,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: home/luka/
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj: home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
@@ -399,7 +399,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj: home/luk
 
 # target to build an object file
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
@@ -407,7 +407,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: home/luka/
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
@@ -415,7 +415,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: home/luka/
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.obj: home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
@@ -423,7 +423,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.obj: home/luka/
 
 # target to build an object file
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i: home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
@@ -431,7 +431,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i: home/luka/pi
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.s: home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
@@ -439,7 +439,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.s: home/luka/pi
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj: home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
@@ -447,7 +447,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj: home/luka/pico/pic
 
 # target to build an object file
 home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
@@ -455,7 +455,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: home/luka/pico/pico-
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
@@ -463,7 +463,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: home/luka/pico/pico-
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.obj: home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
@@ -471,7 +471,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.obj: home/luka/pico/pico-sdk
 
 # target to build an object file
 home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.i: home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
@@ -479,7 +479,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.i: home/luka/pico/pico-sdk/l
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.s: home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
@@ -487,7 +487,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.s: home/luka/pico/pico-sdk/l
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj: home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
@@ -495,7 +495,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj: home/luka/pico/
 
 # target to build an object file
 home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i: home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
@@ -503,7 +503,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i: home/luka/pico/pi
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s: home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
@@ -511,15 +511,39 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s: home/luka/pico/pi
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+
+home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.obj: home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.obj
+.PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.obj
+
+# target to build an object file
+home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.obj:
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.obj
+.PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.obj
+
+home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.i: home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.i
+.PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.i
+
+# target to preprocess a source file
+home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.i:
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.i
+.PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.i
+
+home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.s: home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.s
+.PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.s
+
+# target to generate assembly for a file
+home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.s:
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.s
+.PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.s
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj: home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj
 
 # target to build an object file
 home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
@@ -527,7 +551,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
@@ -535,7 +559,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj: home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
@@ -543,7 +567,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o
 
 # target to build an object file
 home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
@@ -551,7 +575,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
@@ -559,7 +583,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.obj: home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
@@ -567,7 +591,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.obj: home/luka/pico/pico-sdk/lib/ti
 
 # target to build an object file
 home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.i: home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
@@ -575,7 +599,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.i: home/luka/pico/pico-sdk/lib/tiny
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
 
 home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.s: home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
@@ -583,7 +607,7 @@ home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.s: home/luka/pico/pico-sdk/lib/tiny
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
 .PHONY : home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
 
 home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.obj: home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
@@ -591,7 +615,7 @@ home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.obj: home/luka/pic
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 .PHONY : home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 
 home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.i: home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
@@ -599,7 +623,7 @@ home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.i: home/luka/pico/
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 .PHONY : home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 
 home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.s: home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
@@ -607,7 +631,7 @@ home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.s: home/luka/pico/
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 .PHONY : home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 
 home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.obj: home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
@@ -615,7 +639,7 @@ home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.obj: home/luka/pico/pico-
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 .PHONY : home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 
 home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.i: home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
@@ -623,7 +647,7 @@ home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.i: home/luka/pico/pico-sd
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 .PHONY : home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 
 home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.s: home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
@@ -631,7 +655,7 @@ home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.s: home/luka/pico/pico-sd
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 .PHONY : home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 
 home/luka/pico/pico-sdk/src/common/pico_sync/mutex.obj: home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
@@ -639,7 +663,7 @@ home/luka/pico/pico-sdk/src/common/pico_sync/mutex.obj: home/luka/pico/pico-sdk/
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
 .PHONY : home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
 
 home/luka/pico/pico-sdk/src/common/pico_sync/mutex.i: home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.i
@@ -647,7 +671,7 @@ home/luka/pico/pico-sdk/src/common/pico_sync/mutex.i: home/luka/pico/pico-sdk/sr
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 .PHONY : home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 
 home/luka/pico/pico-sdk/src/common/pico_sync/mutex.s: home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.s
@@ -655,7 +679,7 @@ home/luka/pico/pico-sdk/src/common/pico_sync/mutex.s: home/luka/pico/pico-sdk/sr
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 .PHONY : home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 
 home/luka/pico/pico-sdk/src/common/pico_sync/sem.obj: home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.obj
@@ -663,7 +687,7 @@ home/luka/pico/pico-sdk/src/common/pico_sync/sem.obj: home/luka/pico/pico-sdk/sr
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.obj
 .PHONY : home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.obj
 
 home/luka/pico/pico-sdk/src/common/pico_sync/sem.i: home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.i
@@ -671,7 +695,7 @@ home/luka/pico/pico-sdk/src/common/pico_sync/sem.i: home/luka/pico/pico-sdk/src/
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.i
 .PHONY : home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.i
 
 home/luka/pico/pico-sdk/src/common/pico_sync/sem.s: home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.s
@@ -679,7 +703,7 @@ home/luka/pico/pico-sdk/src/common/pico_sync/sem.s: home/luka/pico/pico-sdk/src/
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.s
 .PHONY : home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.s
 
 home/luka/pico/pico-sdk/src/common/pico_time/time.obj: home/luka/pico/pico-sdk/src/common/pico_time/time.c.obj
@@ -687,7 +711,7 @@ home/luka/pico/pico-sdk/src/common/pico_time/time.obj: home/luka/pico/pico-sdk/s
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/common/pico_time/time.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.obj
 .PHONY : home/luka/pico/pico-sdk/src/common/pico_time/time.c.obj
 
 home/luka/pico/pico-sdk/src/common/pico_time/time.i: home/luka/pico/pico-sdk/src/common/pico_time/time.c.i
@@ -695,7 +719,7 @@ home/luka/pico/pico-sdk/src/common/pico_time/time.i: home/luka/pico/pico-sdk/src
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/src/common/pico_time/time.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.i
 .PHONY : home/luka/pico/pico-sdk/src/common/pico_time/time.c.i
 
 home/luka/pico/pico-sdk/src/common/pico_time/time.s: home/luka/pico/pico-sdk/src/common/pico_time/time.c.s
@@ -703,7 +727,7 @@ home/luka/pico/pico-sdk/src/common/pico_time/time.s: home/luka/pico/pico-sdk/src
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/src/common/pico_time/time.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.s
 .PHONY : home/luka/pico/pico-sdk/src/common/pico_time/time.c.s
 
 home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.obj: home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
@@ -711,7 +735,7 @@ home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.obj: home/luka/pico/
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 .PHONY : home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 
 home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.i: home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
@@ -719,7 +743,7 @@ home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.i: home/luka/pico/pi
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 .PHONY : home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
 home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.s: home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
@@ -727,7 +751,7 @@ home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.s: home/luka/pico/pi
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 .PHONY : home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
 home/luka/pico/pico-sdk/src/common/pico_util/datetime.obj: home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.obj
@@ -735,7 +759,7 @@ home/luka/pico/pico-sdk/src/common/pico_util/datetime.obj: home/luka/pico/pico-s
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 .PHONY : home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 
 home/luka/pico/pico-sdk/src/common/pico_util/datetime.i: home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.i
@@ -743,7 +767,7 @@ home/luka/pico/pico-sdk/src/common/pico_util/datetime.i: home/luka/pico/pico-sdk
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.i
 .PHONY : home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.i
 
 home/luka/pico/pico-sdk/src/common/pico_util/datetime.s: home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.s
@@ -751,7 +775,7 @@ home/luka/pico/pico-sdk/src/common/pico_util/datetime.s: home/luka/pico/pico-sdk
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.s
 .PHONY : home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.s
 
 home/luka/pico/pico-sdk/src/common/pico_util/pheap.obj: home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.obj
@@ -759,7 +783,7 @@ home/luka/pico/pico-sdk/src/common/pico_util/pheap.obj: home/luka/pico/pico-sdk/
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 .PHONY : home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 
 home/luka/pico/pico-sdk/src/common/pico_util/pheap.i: home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.i
@@ -767,7 +791,7 @@ home/luka/pico/pico-sdk/src/common/pico_util/pheap.i: home/luka/pico/pico-sdk/sr
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.i
 .PHONY : home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.i
 
 home/luka/pico/pico-sdk/src/common/pico_util/pheap.s: home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.s
@@ -775,7 +799,7 @@ home/luka/pico/pico-sdk/src/common/pico_util/pheap.s: home/luka/pico/pico-sdk/sr
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.s
 .PHONY : home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.s
 
 home/luka/pico/pico-sdk/src/common/pico_util/queue.obj: home/luka/pico/pico-sdk/src/common/pico_util/queue.c.obj
@@ -783,7 +807,7 @@ home/luka/pico/pico-sdk/src/common/pico_util/queue.obj: home/luka/pico/pico-sdk/
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/common/pico_util/queue.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.obj
 .PHONY : home/luka/pico/pico-sdk/src/common/pico_util/queue.c.obj
 
 home/luka/pico/pico-sdk/src/common/pico_util/queue.i: home/luka/pico/pico-sdk/src/common/pico_util/queue.c.i
@@ -791,7 +815,7 @@ home/luka/pico/pico-sdk/src/common/pico_util/queue.i: home/luka/pico/pico-sdk/sr
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/src/common/pico_util/queue.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.i
 .PHONY : home/luka/pico/pico-sdk/src/common/pico_util/queue.c.i
 
 home/luka/pico/pico-sdk/src/common/pico_util/queue.s: home/luka/pico/pico-sdk/src/common/pico_util/queue.c.s
@@ -799,7 +823,7 @@ home/luka/pico/pico-sdk/src/common/pico_util/queue.s: home/luka/pico/pico-sdk/sr
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/src/common/pico_util/queue.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : home/luka/pico/pico-sdk/src/common/pico_util/queue.c.s
 
 home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.obj: home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
@@ -807,7 +831,7 @@ home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.obj: home/luka/pico/pico
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 
 home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.i: home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
@@ -815,7 +839,7 @@ home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.i: home/luka/pico/pico-s
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
 
 home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.s: home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
@@ -823,7 +847,7 @@ home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.s: home/luka/pico/pico-s
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
 
 home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj: home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
@@ -831,7 +855,7 @@ home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj: home/luka/pico/
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 
 home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i: home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
@@ -839,7 +863,7 @@ home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i: home/luka/pico/pi
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 
 home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s: home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
@@ -847,7 +871,7 @@ home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s: home/luka/pico/pi
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 
 home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
@@ -855,7 +879,7 @@ home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: home/luka/pic
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 
 home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
@@ -863,7 +887,7 @@ home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: home/luka/pico/
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
 home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
@@ -871,7 +895,7 @@ home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: home/luka/pico/
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
 home/luka/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj: home/luka/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
@@ -879,7 +903,7 @@ home/luka/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj: home/luka/p
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 
 home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
@@ -887,7 +911,7 @@ home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: home/luka/pico/pi
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 
 home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
@@ -895,7 +919,7 @@ home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: home/luka/pico/pico
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
 home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
@@ -903,7 +927,7 @@ home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: home/luka/pico/pico
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
 home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj: home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
@@ -911,7 +935,7 @@ home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj: home/luka/pico/pico
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 
 home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
@@ -919,7 +943,7 @@ home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: home/luka/pico/pico-s
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
 home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
@@ -927,7 +951,7 @@ home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: home/luka/pico/pico-s
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
 home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
@@ -935,7 +959,7 @@ home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: home/
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 
 home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj: home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
@@ -943,7 +967,7 @@ home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj: home/luka/pico/pico
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 
 home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
@@ -951,7 +975,7 @@ home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: home/luka/pico/pico-s
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 
 home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
@@ -959,7 +983,7 @@ home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: home/luka/pico/pico-s
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
 home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj: home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
@@ -967,7 +991,7 @@ home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj: home/luka/pico/pi
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 
 home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
@@ -975,7 +999,7 @@ home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: home/luka/pico/pico
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
 home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s: home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
@@ -983,7 +1007,7 @@ home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s: home/luka/pico/pico
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
 home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj: home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
@@ -991,7 +1015,7 @@ home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj: home/luka/pico/
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 
 home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i: home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
@@ -999,7 +1023,7 @@ home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i: home/luka/pico/pi
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
 home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s: home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
@@ -1007,7 +1031,7 @@ home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s: home/luka/pico/pi
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
 home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj: home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
@@ -1015,7 +1039,7 @@ home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj: home/luka/pico/pi
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 
 home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i: home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
@@ -1023,7 +1047,7 @@ home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i: home/luka/pico/pico
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
 home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s: home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
@@ -1031,7 +1055,7 @@ home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s: home/luka/pico/pico
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
 home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
@@ -1039,7 +1063,7 @@ home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: home/luka/pico/pi
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 
 home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
@@ -1047,7 +1071,7 @@ home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: home/luka/pico/pico
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
 home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
@@ -1055,7 +1079,7 @@ home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: home/luka/pico/pico
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
 home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
@@ -1063,7 +1087,7 @@ home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: home/luka
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 
 home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
@@ -1071,7 +1095,7 @@ home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: home/luka/p
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
 home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
@@ -1079,7 +1103,7 @@ home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: home/luka/p
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
 home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
@@ -1087,7 +1111,7 @@ home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: home/luka/pico/pi
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 
 home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
@@ -1095,7 +1119,7 @@ home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: home/luka/pico/pico
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
 home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
@@ -1103,7 +1127,7 @@ home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: home/luka/pico/pico
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: home/luka/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
@@ -1111,7 +1135,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: home/luka
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
@@ -1119,7 +1143,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: home/luka/pico/
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
@@ -1127,7 +1151,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: home/luka/pico/pi
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
@@ -1135,7 +1159,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: home/luka/pico/pi
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj: home/luka/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
@@ -1143,7 +1167,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj: home/luka/pico/
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
@@ -1151,7 +1175,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: home/luka/p
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
@@ -1159,7 +1183,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: home/luk
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
@@ -1167,7 +1191,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: home/luka/
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
@@ -1175,7 +1199,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: home/luka/
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj: home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
@@ -1183,7 +1207,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj: home/luka/pi
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.i: home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
@@ -1191,7 +1215,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.i: home/luka/pico
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.s: home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
@@ -1199,7 +1223,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.s: home/luka/pico
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj: home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
@@ -1207,7 +1231,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj: home/
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj: home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
@@ -1215,7 +1239,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i: home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
@@ -1223,7 +1247,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s: home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
@@ -1231,7 +1255,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
@@ -1239,7 +1263,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: home/luka/pic
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
@@ -1247,7 +1271,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: home/luka/
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
@@ -1255,7 +1279,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: home/luka/pi
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
@@ -1263,7 +1287,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: home/luka/pi
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj: home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
@@ -1271,7 +1295,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj: home/luka/pico
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.i: home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
@@ -1279,7 +1303,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.i: home/luka/pico/p
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.s: home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
@@ -1287,7 +1311,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.s: home/luka/pico/p
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
@@ -1295,7 +1319,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: home/lu
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: home/luka/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
@@ -1303,7 +1327,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: 
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
@@ -1311,7 +1335,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: home/luka/pi
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
@@ -1319,7 +1343,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: home/luka/pico
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
@@ -1327,7 +1351,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: home/luka/pico
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: home/luka/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
@@ -1335,7 +1359,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: home/luka
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj: home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
@@ -1343,7 +1367,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj: home/luka/pic
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.i: home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
@@ -1351,7 +1375,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.i: home/luka/pico/
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.s: home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
@@ -1359,7 +1383,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.s: home/luka/pico/
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj: home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
@@ -1367,7 +1391,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj: home/luka/pico/pi
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.i: home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
@@ -1375,7 +1399,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.i: home/luka/pico/pico
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.s: home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
@@ -1383,7 +1407,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.s: home/luka/pico/pico
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
@@ -1391,7 +1415,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: home/luka/pico/
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i: home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
@@ -1399,7 +1423,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i: home/luka/pico/pi
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s: home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
@@ -1407,7 +1431,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s: home/luka/pico/pi
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj: home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
@@ -1415,7 +1439,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj: home/
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
@@ -1423,7 +1447,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: home/lu
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
@@ -1431,7 +1455,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: home/lu
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1439,7 +1463,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: home/luka/pi
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
@@ -1447,7 +1471,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: home/l
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
@@ -1455,7 +1479,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: home/luk
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
@@ -1463,7 +1487,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: home/luk
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
@@ -1471,7 +1495,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: home/luka/pico/pico
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
@@ -1479,7 +1503,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: home/luka/pico/pico-s
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
@@ -1487,7 +1511,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: home/luka/pico/pico-s
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
@@ -1495,7 +1519,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: home/luka
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
@@ -1503,7 +1527,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: home/luka/p
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
@@ -1511,7 +1535,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: home/luka/p
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
@@ -1519,7 +1543,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: home/luka/pico/pi
 
 # target to build an object file
 home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
@@ -1527,7 +1551,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: home/luka/pico/pico
 
 # target to preprocess a source file
 home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 
 home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
@@ -1535,7 +1559,7 @@ home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: home/luka/pico/pico
 
 # target to generate assembly for a file
 home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
 usb_descriptors.obj: usb_descriptors.c.obj
@@ -1543,7 +1567,7 @@ usb_descriptors.obj: usb_descriptors.c.obj
 
 # target to build an object file
 usb_descriptors.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/usb_descriptors.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/usb_descriptors.c.obj
 .PHONY : usb_descriptors.c.obj
 
 usb_descriptors.i: usb_descriptors.c.i
@@ -1551,7 +1575,7 @@ usb_descriptors.i: usb_descriptors.c.i
 
 # target to preprocess a source file
 usb_descriptors.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/usb_descriptors.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/usb_descriptors.c.i
 .PHONY : usb_descriptors.c.i
 
 usb_descriptors.s: usb_descriptors.c.s
@@ -1559,7 +1583,7 @@ usb_descriptors.s: usb_descriptors.c.s
 
 # target to generate assembly for a file
 usb_descriptors.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/usb_descriptors.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/usb_descriptors.c.s
 .PHONY : usb_descriptors.c.s
 
 usb_midi.obj: usb_midi.c.obj
@@ -1567,7 +1591,7 @@ usb_midi.obj: usb_midi.c.obj
 
 # target to build an object file
 usb_midi.c.obj:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/usb_midi.c.obj
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/usb_midi.c.obj
 .PHONY : usb_midi.c.obj
 
 usb_midi.i: usb_midi.c.i
@@ -1575,7 +1599,7 @@ usb_midi.i: usb_midi.c.i
 
 # target to preprocess a source file
 usb_midi.c.i:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/usb_midi.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/usb_midi.c.i
 .PHONY : usb_midi.c.i
 
 usb_midi.s: usb_midi.c.s
@@ -1583,7 +1607,7 @@ usb_midi.s: usb_midi.c.s
 
 # target to generate assembly for a file
 usb_midi.c.s:
-	cd /home/luka/pico/as3394/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/usb_midi.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/usb_midi.c.s
 .PHONY : usb_midi.c.s
 
 # Help Target
@@ -1643,6 +1667,9 @@ help:
 	@echo "... home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj"
 	@echo "... home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i"
 	@echo "... home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s"
+	@echo "... home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.obj"
+	@echo "... home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.i"
+	@echo "... home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.s"
 	@echo "... home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj"
 	@echo "... home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i"
 	@echo "... home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s"
@@ -1788,6 +1815,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/luka/pico/as3394/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

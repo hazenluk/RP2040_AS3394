@@ -1,4 +1,4 @@
-# Install script for directory: /home/luka/pico/as3394/usb-midi
+# Install script for directory: /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/usb-midi
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/luka/pico/as3394/build/usb-midi/pico-sdk/cmake_install.cmake")
+  include("/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi/pico-sdk/cmake_install.cmake")
 
 endif()
 

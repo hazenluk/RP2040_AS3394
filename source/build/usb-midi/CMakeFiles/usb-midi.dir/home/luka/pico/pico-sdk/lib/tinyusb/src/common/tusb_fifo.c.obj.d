@@ -24,11 +24,13 @@ usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/common/
  /usr/include/newlib/sys/_pthreadtypes.h /usr/include/newlib/sys/sched.h \
  /usr/include/newlib/machine/types.h /usr/include/newlib/sys/stdio.h \
  /home/luka/pico/pico-sdk/lib/tinyusb/src/tusb_option.h \
- /home/luka/pico/as3394/usb-midi/tusb_config.h \
+ /home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+ /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/usb-midi/tusb_config.h \
+ /home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
  /home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
  /home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
  /home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
- /home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_error.h \
+ /home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
  /home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_timeout.h \
  /home/luka/pico/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
  /home/luka/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
@@ -36,9 +38,9 @@ usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/common/
  /home/luka/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
  /home/luka/pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
  /usr/include/newlib/assert.h \
- /home/luka/pico/as3394/build/generated/pico_base/pico/version.h \
+ /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/generated/pico_base/pico/version.h \
  /home/luka/pico/pico-sdk/src/common/pico_base/include/pico/config.h \
- /home/luka/pico/as3394/build/generated/pico_base/pico/config_autogen.h \
+ /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/generated/pico_base/pico/config_autogen.h \
  /home/luka/pico/pico-sdk/src/boards/include/boards/pico.h \
  /home/luka/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/luka/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/luka/pico/as3394
+CMAKE_SOURCE_DIR = /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luka/pico/as3394/build
+CMAKE_BINARY_DIR = /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build
 
 # Include any dependencies generated for this target.
 include usb-midi/CMakeFiles/usb-midi.dir/depend.make
@@ -72,119 +72,119 @@ include usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/usb_midi.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/usb_midi.c.obj: ../usb-midi/usb_midi.c
 usb-midi/CMakeFiles/usb-midi.dir/usb_midi.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object usb-midi/CMakeFiles/usb-midi.dir/usb_midi.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/usb_midi.c.obj -MF CMakeFiles/usb-midi.dir/usb_midi.c.obj.d -o CMakeFiles/usb-midi.dir/usb_midi.c.obj -c /home/luka/pico/as3394/usb-midi/usb_midi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object usb-midi/CMakeFiles/usb-midi.dir/usb_midi.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/usb_midi.c.obj -MF CMakeFiles/usb-midi.dir/usb_midi.c.obj.d -o CMakeFiles/usb-midi.dir/usb_midi.c.obj -c /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/usb-midi/usb_midi.c
 
 usb-midi/CMakeFiles/usb-midi.dir/usb_midi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/usb_midi.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/as3394/usb-midi/usb_midi.c > CMakeFiles/usb-midi.dir/usb_midi.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/usb-midi/usb_midi.c > CMakeFiles/usb-midi.dir/usb_midi.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/usb_midi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/usb_midi.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/as3394/usb-midi/usb_midi.c -o CMakeFiles/usb-midi.dir/usb_midi.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/usb-midi/usb_midi.c -o CMakeFiles/usb-midi.dir/usb_midi.c.s
 
 usb-midi/CMakeFiles/usb-midi.dir/usb_descriptors.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/usb_descriptors.c.obj: ../usb-midi/usb_descriptors.c
 usb-midi/CMakeFiles/usb-midi.dir/usb_descriptors.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object usb-midi/CMakeFiles/usb-midi.dir/usb_descriptors.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/usb_descriptors.c.obj -MF CMakeFiles/usb-midi.dir/usb_descriptors.c.obj.d -o CMakeFiles/usb-midi.dir/usb_descriptors.c.obj -c /home/luka/pico/as3394/usb-midi/usb_descriptors.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object usb-midi/CMakeFiles/usb-midi.dir/usb_descriptors.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/usb_descriptors.c.obj -MF CMakeFiles/usb-midi.dir/usb_descriptors.c.obj.d -o CMakeFiles/usb-midi.dir/usb_descriptors.c.obj -c /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/usb-midi/usb_descriptors.c
 
 usb-midi/CMakeFiles/usb-midi.dir/usb_descriptors.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/usb_descriptors.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/as3394/usb-midi/usb_descriptors.c > CMakeFiles/usb-midi.dir/usb_descriptors.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/usb-midi/usb_descriptors.c > CMakeFiles/usb-midi.dir/usb_descriptors.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/usb_descriptors.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/usb_descriptors.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/as3394/usb-midi/usb_descriptors.c -o CMakeFiles/usb-midi.dir/usb_descriptors.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/usb-midi/usb_descriptors.c -o CMakeFiles/usb-midi.dir/usb_descriptors.c.s
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
-
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
-
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
-
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
+
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building ASM object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building ASM object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i"
@@ -197,161 +197,231 @@ usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /home/luka/pico/pico-sdk/src/common/pico_sync/sem.c
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.obj -c /home/luka/pico/pico-sdk/src/common/pico_sync/sem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.obj -c /home/luka/pico/pico-sdk/src/common/pico_sync/sem.c
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/common/pico_sync/sem.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/common/pico_sync/sem.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/common/pico_sync/sem.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/common/pico_sync/sem.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.s
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: /home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
-
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.obj: /home/luka/pico/pico-sdk/src/common/pico_time/time.c
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.obj -c /home/luka/pico/pico-sdk/src/common/pico_time/time.c
-
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/common/pico_time/time.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.i
-
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.s
-
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c
-
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
-
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
-
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
-
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
-
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
-
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/luka/pico/pico-sdk/src/common/pico_util/datetime.c
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.obj -c /home/luka/pico/pico-sdk/src/common/pico_util/datetime.c
-
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.i
-
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.s
-
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/luka/pico/pico-sdk/src/common/pico_util/pheap.c
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.obj -c /home/luka/pico/pico-sdk/src/common/pico_util/pheap.c
-
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.i
-
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.s
-
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.obj: /home/luka/pico/pico-sdk/src/common/pico_util/queue.c
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.obj -c /home/luka/pico/pico-sdk/src/common/pico_util/queue.c
-
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.i
-
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -c /home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -c /home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.obj: /home/luka/pico/pico-sdk/src/common/pico_time/time.c
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.obj -c /home/luka/pico/pico-sdk/src/common/pico_time/time.c
+
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.i"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/common/pico_time/time.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.i
+
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.s"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.s
+
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c
+
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
+
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/luka/pico/pico-sdk/src/common/pico_util/datetime.c
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.obj -c /home/luka/pico/pico-sdk/src/common/pico_util/datetime.c
+
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.i"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.i
+
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.s"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.s
+
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/luka/pico/pico-sdk/src/common/pico_util/pheap.c
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.obj -c /home/luka/pico/pico-sdk/src/common/pico_util/pheap.c
+
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.i"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.i
+
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.s"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.s
+
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.obj: /home/luka/pico/pico-sdk/src/common/pico_util/queue.c
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.obj -c /home/luka/pico/pico-sdk/src/common/pico_util/queue.c
+
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.i"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.i
+
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.s"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.s
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
+
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
+
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
+
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
+
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
+
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /home/luka/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building ASM object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building ASM object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i"
@@ -364,105 +434,35 @@ usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
-
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
-
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
-
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
-
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
-
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
-
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
-
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
-
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
-
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
-
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
-
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
-
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
-
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
-
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
-
-usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building ASM object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building ASM object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i"
@@ -475,21 +475,21 @@ usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bit
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i"
@@ -501,8 +501,8 @@ usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_div
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building ASM object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building ASM object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i"
@@ -515,35 +515,35 @@ usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_dou
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i"
@@ -555,8 +555,8 @@ usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_dou
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i"
@@ -568,8 +568,8 @@ usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_int
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building ASM object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building ASM object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i"
@@ -582,35 +582,35 @@ usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_flo
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building ASM object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building ASM object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i"
@@ -623,21 +623,21 @@ usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_flo
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i"
@@ -649,8 +649,8 @@ usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_mem
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj   -c /home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i"
@@ -663,352 +663,366 @@ usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_sta
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: /home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -c /home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -c /home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -c /home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -c /home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: /home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -c /home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -c /home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: /home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -c /home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -c /home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: /home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -c /home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -c /home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: /home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -c /home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -c /home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: /home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -c /home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -c /home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: /home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -c /home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -c /home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: /home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -c /home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -c /home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: /home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -c /home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -c /home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: /home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -c /home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -c /home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: /home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -c /home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -c /home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: /home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -c /home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -c /home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: /home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -c /home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -c /home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: /home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -c /home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -c /home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: /home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -c /home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -c /home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.obj: /home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.obj -c /home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c
+
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.i"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.i
+
+usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.s"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.s
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: /home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.c
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj -c /home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj -c /home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.c
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: /home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -c /home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -c /home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -c /home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj: usb-midi/CMakeFiles/usb-midi.dir/flags.make
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj: /home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj: usb-midi/CMakeFiles/usb-midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj -c /home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj -MF CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj.d -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj -c /home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.i"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.i
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c > CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.i
 
 usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.s"
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.s
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c -o CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.s
 
 # Object files for target usb-midi
 usb__midi_OBJECTS = \
@@ -1016,29 +1030,29 @@ usb__midi_OBJECTS = \
 "CMakeFiles/usb-midi.dir/usb_descriptors.c.obj" \
 "CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
 "CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
-"CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" \
 "CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
+"CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" \
 "CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj" \
 "CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" \
 "CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj" \
 "CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.obj" \
 "CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj" \
+"CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.obj" \
+"CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj" \
 "CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.obj" \
 "CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj" \
 "CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj" \
 "CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.obj" \
 "CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.obj" \
 "CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.obj" \
-"CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.obj" \
-"CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj" \
 "CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj" \
-"CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj" \
-"CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj" \
 "CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" \
 "CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" \
 "CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj" \
 "CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj" \
 "CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj" \
+"CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj" \
+"CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj" \
 "CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj" \
 "CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj" \
 "CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj" \
@@ -1076,6 +1090,7 @@ usb__midi_OBJECTS = \
 "CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj" \
 "CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj" \
 "CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj" \
+"CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.obj" \
 "CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj" \
 "CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj" \
 "CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj" \
@@ -1088,29 +1103,29 @@ usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/usb_midi.c.obj
 usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/usb_descriptors.c.obj
 usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/sem.c.obj
 usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/time.c.obj
 usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_util/queue.c.obj
-usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
-usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
@@ -1148,6 +1163,7 @@ usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/
 usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
 usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
 usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/pio_usb/dcd_pio_usb.c.obj
 usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
 usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
@@ -1155,23 +1171,23 @@ usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/
 usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/build.make
 usb-midi/usb-midi.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 usb-midi/usb-midi.elf: usb-midi/CMakeFiles/usb-midi.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luka/pico/as3394/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Linking CXX executable usb-midi.elf"
-	cd /home/luka/pico/as3394/build/usb-midi && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/usb-midi.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-objcopy -Oihex /home/luka/pico/as3394/build/usb-midi/usb-midi.elf usb-midi.hex
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-objcopy -Obinary /home/luka/pico/as3394/build/usb-midi/usb-midi.elf usb-midi.bin
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-objdump -h /home/luka/pico/as3394/build/usb-midi/usb-midi.elf >usb-midi.dis
-	cd /home/luka/pico/as3394/build/usb-midi && /usr/bin/arm-none-eabi-objdump -d /home/luka/pico/as3394/build/usb-midi/usb-midi.elf >>usb-midi.dis
-	cd /home/luka/pico/as3394/build/usb-midi && ../elf2uf2/elf2uf2 /home/luka/pico/as3394/build/usb-midi/usb-midi.elf usb-midi.uf2
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Linking CXX executable usb-midi.elf"
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/usb-midi.dir/link.txt --verbose=$(VERBOSE)
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-objcopy -Oihex /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi/usb-midi.elf usb-midi.hex
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-objcopy -Obinary /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi/usb-midi.elf usb-midi.bin
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-objdump -h /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi/usb-midi.elf > usb-midi.dis
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && /usr/bin/arm-none-eabi-objdump -d /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi/usb-midi.elf >> usb-midi.dis
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && ../elf2uf2/elf2uf2 /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi/usb-midi.elf usb-midi.uf2
 
 # Rule to build all files generated by this target.
 usb-midi/CMakeFiles/usb-midi.dir/build: usb-midi/usb-midi.elf
 .PHONY : usb-midi/CMakeFiles/usb-midi.dir/build
 
 usb-midi/CMakeFiles/usb-midi.dir/clean:
-	cd /home/luka/pico/as3394/build/usb-midi && $(CMAKE_COMMAND) -P CMakeFiles/usb-midi.dir/cmake_clean.cmake
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi && $(CMAKE_COMMAND) -P CMakeFiles/usb-midi.dir/cmake_clean.cmake
 .PHONY : usb-midi/CMakeFiles/usb-midi.dir/clean
 
 usb-midi/CMakeFiles/usb-midi.dir/depend:
-	cd /home/luka/pico/as3394/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luka/pico/as3394 /home/luka/pico/as3394/usb-midi /home/luka/pico/as3394/build /home/luka/pico/as3394/build/usb-midi /home/luka/pico/as3394/build/usb-midi/CMakeFiles/usb-midi.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/usb-midi /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/usb-midi/CMakeFiles/usb-midi.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : usb-midi/CMakeFiles/usb-midi.dir/depend
 

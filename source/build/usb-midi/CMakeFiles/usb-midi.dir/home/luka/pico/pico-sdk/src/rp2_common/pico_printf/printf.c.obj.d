@@ -18,20 +18,20 @@ usb-midi/CMakeFiles/usb-midi.dir/home/luka/pico/pico-sdk/src/rp2_common/pico_pri
  /usr/include/newlib/sys/timespec.h /usr/include/newlib/sys/_timespec.h \
  /usr/include/newlib/sys/_pthreadtypes.h /usr/include/newlib/sys/sched.h \
  /usr/include/newlib/machine/types.h /usr/include/newlib/sys/stdio.h \
+ /home/luka/pico/pico-sdk/src/common/pico_base/include/pico.h \
+ /home/luka/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+ /home/luka/pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
+ /usr/include/newlib/assert.h \
+ /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/generated/pico_base/pico/version.h \
+ /home/luka/pico/pico-sdk/src/common/pico_base/include/pico/config.h \
+ /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/generated/pico_base/pico/config_autogen.h \
+ /home/luka/pico/pico-sdk/src/boards/include/boards/pico.h \
+ /home/luka/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/luka/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
  /home/luka/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
  /home/luka/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
  /home/luka/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
  /home/luka/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
- /home/luka/pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
- /usr/include/newlib/assert.h \
- /home/luka/pico/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h \
- /home/luka/pico/pico-sdk/src/common/pico_base/include/pico.h \
- /home/luka/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
- /home/luka/pico/as3394/build/generated/pico_base/pico/version.h \
- /home/luka/pico/pico-sdk/src/common/pico_base/include/pico/config.h \
- /home/luka/pico/as3394/build/generated/pico_base/pico/config_autogen.h \
- /home/luka/pico/pico-sdk/src/boards/include/boards/pico.h \
- /home/luka/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/luka/pico/pico-sdk/src/common/pico_base/include/pico/error.h \
+ /home/luka/pico/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/float.h

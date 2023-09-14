@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/luka/pico/as3394
+CMAKE_SOURCE_DIR = /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luka/pico/as3394/build
+CMAKE_BINARY_DIR = /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luka/pico/as3394/build/CMakeFiles /home/luka/pico/as3394/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luka/pico/as3394/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Luka/Documents/Electronics_Projects/RP2040_AS3394/source/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -156,19 +156,6 @@ bs2_default_padded_checksummed_asm/fast:
 .PHONY : bs2_default_padded_checksummed_asm/fast
 
 #=============================================================================
-# Target rules for targets named cyw43_firmware_package
-
-# Build rule for target.
-cyw43_firmware_package: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cyw43_firmware_package
-.PHONY : cyw43_firmware_package
-
-# fast build rule for target.
-cyw43_firmware_package/fast:
-	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package.dir/build.make pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_firmware_package.dir/build
-.PHONY : cyw43_firmware_package/fast
-
-#=============================================================================
 # Target rules for targets named PioasmBuild
 
 # Build rule for target.
@@ -178,8 +165,34 @@ PioasmBuild: cmake_check_build_system
 
 # fast build rule for target.
 PioasmBuild/fast:
-	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild.dir/build.make pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild.dir/build
+	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild.dir/build.make pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild.dir/build
 .PHONY : PioasmBuild/fast
+
+#=============================================================================
+# Target rules for targets named tinyusb_pico_pio_usb_usb_tx_pio_h
+
+# Build rule for target.
+tinyusb_pico_pio_usb_usb_tx_pio_h: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tinyusb_pico_pio_usb_usb_tx_pio_h
+.PHONY : tinyusb_pico_pio_usb_usb_tx_pio_h
+
+# fast build rule for target.
+tinyusb_pico_pio_usb_usb_tx_pio_h/fast:
+	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/tinyusb/CMakeFiles/tinyusb_pico_pio_usb_usb_tx_pio_h.dir/build.make pico-sdk/src/rp2_common/tinyusb/CMakeFiles/tinyusb_pico_pio_usb_usb_tx_pio_h.dir/build
+.PHONY : tinyusb_pico_pio_usb_usb_tx_pio_h/fast
+
+#=============================================================================
+# Target rules for targets named tinyusb_pico_pio_usb_usb_rx_pio_h
+
+# Build rule for target.
+tinyusb_pico_pio_usb_usb_rx_pio_h: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tinyusb_pico_pio_usb_usb_rx_pio_h
+.PHONY : tinyusb_pico_pio_usb_usb_rx_pio_h
+
+# fast build rule for target.
+tinyusb_pico_pio_usb_usb_rx_pio_h/fast:
+	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/tinyusb/CMakeFiles/tinyusb_pico_pio_usb_usb_rx_pio_h.dir/build.make pico-sdk/src/rp2_common/tinyusb/CMakeFiles/tinyusb_pico_pio_usb_usb_rx_pio_h.dir/build
+.PHONY : tinyusb_pico_pio_usb_usb_rx_pio_h/fast
 
 #=============================================================================
 # Target rules for targets named cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
@@ -191,7 +204,7 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: cmake_check_build_system
 
 # fast build rule for target.
 cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast:
-	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build.make pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
+	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast
 
 #=============================================================================
@@ -233,6 +246,19 @@ usb-midi/fast:
 	$(MAKE) $(MAKESILENT) -f usb-midi/CMakeFiles/usb-midi.dir/build.make usb-midi/CMakeFiles/usb-midi.dir/build
 .PHONY : usb-midi/fast
 
+#=============================================================================
+# Target rules for targets named mono_modulation
+
+# Build rule for target.
+mono_modulation: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mono_modulation
+.PHONY : mono_modulation
+
+# fast build rule for target.
+mono_modulation/fast:
+	$(MAKE) $(MAKESILENT) -f mono_modulation/CMakeFiles/mono_modulation.dir/build.make mono_modulation/CMakeFiles/mono_modulation.dir/build
+.PHONY : mono_modulation/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -246,8 +272,10 @@ help:
 	@echo "... bs2_default_bin"
 	@echo "... bs2_default_padded_checksummed_asm"
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
-	@echo "... cyw43_firmware_package"
+	@echo "... tinyusb_pico_pio_usb_usb_rx_pio_h"
+	@echo "... tinyusb_pico_pio_usb_usb_tx_pio_h"
 	@echo "... bs2_default"
+	@echo "... mono_modulation"
 	@echo "... pwm_test"
 	@echo "... usb-midi"
 .PHONY : help

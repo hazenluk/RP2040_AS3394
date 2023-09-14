@@ -24,3 +24,4 @@ project(RP2040_AS3394)
 
 add_subdirectory(pwm_test)
 add_subdirectory(usb-midi)
+add_subdirectory(mono_modulation)
